@@ -9,8 +9,9 @@ phonebook = {
 }  
 # Your code goes here:
 
-
-
+phonebook = ["Jake"] = 938376456
+phonebook.pop("Jill")
+print(phonebook)
 
 
 # QUESTION #2: Create a dictionary called aboutMe that contains the following keys and values: 
@@ -24,7 +25,14 @@ phonebook = {
 # likeCoding (which contains a bool, True if you like coding and False if you don’t like coding)
 # Then, print aboutMe
 
-
+aboutMe = {
+    "name":"Adiel",
+    "age":15,
+    "favFood":"Pizza(Pineapple)",
+    "hairColor":"Dark Brown",
+    "favSubject":"History",
+    "favSweet":"Cookies",
+}
 
 
 
