@@ -9,7 +9,7 @@ phonebook = {
 }  
 # Your code goes here:
 
-phonebook = ["Jake"] = 938376456
+phonebook["Jake"] = 938376456
 phonebook.pop("Jill")
 print(phonebook)
 
@@ -32,13 +32,10 @@ aboutMe = {
     "hairColor":"Dark Brown",
     "favSubject":"History",
     "favSweet":"Cookies",
+    "favHobbie":"Drawing",
+    "likeCoding":True
 }
-
-
-
-
-
-
+print(aboutMe)
 
 # QUESTION #3: Create a dictionary called myPet that contains information about a pet that you want to adopt! 
 # These are the keys:
@@ -48,7 +45,14 @@ aboutMe = {
 # 4. noise (which contains the value of what noise your pet makes ex: woof or meow)
 # 5. favActivity (which contains the value of your pets favourite activity)
 # 5. favFood (which contains the value of your pets favourite food)
-
+myPet = {
+    "name":"Aisha",
+    "breed":"Shih Tzu",
+    "age":2,
+    "noise":"woof",
+    "favActivity":"sleeping",
+    "favFood":"bones"
+}
 # Then do the following:
 # A. Print the dictionary
 # B. Print the value of breed using the breed key
@@ -57,9 +61,11 @@ aboutMe = {
 # E. Print the length of your dictionary
 # F. Change the value of one existing value then print the dictionary
 
-
-
-
+print(myPet)
+print(myPet["breed"])
+myPet.pop("favFood")
+print(len(myPet))
+myPet["favFood"] = "chicken"
 
 
 
@@ -72,6 +78,17 @@ aboutMe = {
 # E. Print the length of your dictionary
 # F. Change the value of one existing value then print the dictionary
 
+heights = {
+    "Aniya":"5'5",
+    "Adiel":"5'5",
+    "Momina":"5'3",
+    "Terance":"5'10",
+    "Ms. Paulino":"5'6"
+}
 
-
-
+print(heights)
+print(heights["Adiel"])
+heights.pop("Ms. Paulino")
+heights["Tylar"] = "5'5"
+print(len(heights))
+heights["Adiel"] = "6'7"
